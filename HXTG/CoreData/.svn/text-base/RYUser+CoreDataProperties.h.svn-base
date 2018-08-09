@@ -1,0 +1,24 @@
+//
+//  RYUser+CoreDataProperties.h
+//  HXTG
+//
+//  Created by grx on 2017/4/24.
+//  Copyright © 2017年 grx. All rights reserved.
+//
+
+#import "RYUser+CoreDataClass.h"
+
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface RYUser (CoreDataProperties)
+
++ (NSFetchRequest<RYUser *> *)fetchRequest;
+
+@property (nullable, nonatomic, copy) NSString *userId;
+@property (nullable, nonatomic, copy) NSString *userName;
+@property (nullable, nonatomic, copy) NSString *userImage;
+
+@end
+
+NS_ASSUME_NONNULL_END

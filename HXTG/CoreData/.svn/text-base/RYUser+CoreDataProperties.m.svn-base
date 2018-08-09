@@ -1,0 +1,21 @@
+//
+//  RYUser+CoreDataProperties.m
+//  HXTG
+//
+//  Created by grx on 2017/4/24.
+//  Copyright © 2017年 grx. All rights reserved.
+//
+
+#import "RYUser+CoreDataProperties.h"
+
+@implementation RYUser (CoreDataProperties)
+
++ (NSFetchRequest<RYUser *> *)fetchRequest {
+	return [[NSFetchRequest alloc] initWithEntityName:@"RYUser"];
+}
+
+@dynamic userId;
+@dynamic userName;
+@dynamic userImage;
+
+@end

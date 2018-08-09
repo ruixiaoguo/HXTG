@@ -1,0 +1,27 @@
+//
+//  HXPrefixHeader.pch
+//  HXTG
+//
+//  Created by grx on 2017/2/14.
+//  Copyright © 2017年 grx. All rights reserved.
+//
+
+#ifndef HXPrefixHeader_pch
+#define HXPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <MagicalRecord/MagicalRecord.h>
+#import "AppMacro.h"
+#import "UIView+Additions.h"
+#import "AppLoginKey.h"
+#import "config.h"
+#import "HXNetClient.h"
+#import "UIImageView+WebCache.h"
+#import "Masonry.h"
+#import "MJExtension.h"
+#import "UIView+ViewController.h"
+#import "MJRefresh.h"
+#import "UIView+SDAutoLayout.h"
+
+#endif /* HXPrefixHeader_pch */

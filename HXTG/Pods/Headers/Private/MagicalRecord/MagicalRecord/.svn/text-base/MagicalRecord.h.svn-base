@@ -1,0 +1,1 @@
+link ../../../../MagicalRecord/MagicalRecord/MagicalRecord.h
